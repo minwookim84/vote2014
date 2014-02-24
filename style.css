@@ -399,7 +399,7 @@ footer{
 
 .header_right{
 	float:right;
-	margin-right:50px;
+	margin-right:60px;
 	}
 
 .header_left{
@@ -428,6 +428,7 @@ footer{
 	height:120px;
 	line-height:120px;
 	margin-top:13px;
+	margin-left:60px;
 }
 
 
