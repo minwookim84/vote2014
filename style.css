@@ -385,19 +385,19 @@ footer{
 
 @media screen and (device-aspect-ratio: 40/71) {
 	section{
-		width:300px;
+		width:840px;
 		margin-bottom:20px;
 	}
 
 	.desc_image{
-	width:225px;
+	width:640px;
 	margin:auto;
 	padding: 5px 0;
 }
 	
 
 	.headline{
-		width:300px;
+		width:840px;
 		margin:auto;
 		text-align:center;
 		font-size:20px;
@@ -421,7 +421,7 @@ footer{
 	text-align:justify;
 	}	
 	.visual_list>li{
-		width:90px;
+		width:250px;
 		background-color:#ffffff;
 		float:left;
 		margin-left:5px;
