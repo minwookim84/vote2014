@@ -116,9 +116,8 @@ header{
 }
 
 .nav_button{
-	/*background-color:#960010;*/
-	background-color:#418323;
-	color:#FFFFFF;
+	background-color:#949494;
+	color:ffffff;
 	border:4px solid #a8c795;
 	border-radius:10px;
 	height:33px;
@@ -422,8 +421,6 @@ footer{
 
 .nav_button{
 	/*background-color:#960010;*/
-	background-color:#418323;
-	color:#FFFFFF;
 	border:4px solid #a8c795;
 	border-radius:10px;
 	height:120px;
@@ -571,8 +568,6 @@ footer{
 
 	.nav_button{
 		/*background-color:#960010;*/
-		background-color:#418323;
-		color:#FFFFFF;
 		border:4px solid #a8c795;
 		border-radius:10px;
 		height:80px;
