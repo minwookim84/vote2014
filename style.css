@@ -475,3 +475,97 @@ footer{
 }
 
 }
+
+/* 갤스3 이상을 위한 미디어 쿼리 ----------------*/
+
+@media only screen and (min-device-width : 640px) and (max-device-width : 960px) {
+	section{
+		width:100%;
+		margin-bottom:20px;
+	}
+
+	.desc_image{
+	width:100%;
+	margin:auto;
+	padding: 5px 0;
+	}
+	
+	.headline{
+		width:100%;
+		margin:auto;
+		text-align:center;
+		font-size:50px;
+		font-weight:bold;
+		line-height:60px;
+		margin-bottom:15px;
+	}
+
+	h2{
+	font-size:55px;
+	font-weight:bold;
+	margin-bottom:10px;
+	}
+
+	.subtitle{
+	padding:5px 10px 5px 10px;
+	width:95%;
+	margin-left:2%;
+	margin-bottom:5px;
+	font-size:35px;
+	text-align:justify;
+	}	
+	.text_desc{
+	font-size:35px;
+	height:45px;
+	line-height:45px;
+	border-radius:0;
+	}
+
+	.text_list>li{
+		clear:left;
+		width:95%;
+		float:none;
+		/*border:2px solid #cccccc;*/
+		border-radius:5px;
+		margin:5px 2%;
+		padding:10px 0;
+		text-align:center;
+	}
+
+	.text_list>li>.text_desc{
+	clear:right;
+	width:95%;
+	height:74px;
+	line-height:74px;
+	float:none;
+	border-radius:2px;
+	margin:0 2%;
+	padding:11px 0;
+	text-align:center;
+	}
+		.text_list>li>img{
+			width:96px;
+			height:96px;
+			float:left;
+		}
+
+	.visual_list>li{
+		width:30%;
+		background-color:#ffffff;
+		float:left;
+		margin-left:12px;
+		margin-bottom:5px;
+		text-align:center;
+	}
+	ul.text_list, .desc_image{float:none;width:95%;margin:auto;}
+
+	.more_desc{
+	clear:both;
+	width:90%;
+	margin:5px 2% 5px 2%;
+	letter-spacing:-0.5px;
+	font-size:30px;
+	text-align:justify;
+}
+
+}
