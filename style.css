@@ -116,9 +116,9 @@ header{
 }
 
 .nav_button{
-	background-color:#949494;
+	background-color:#e33d44;
 	color:ffffff;
-	border:4px solid #a8c795;
+	border:4px solid #494949;
 	border-radius:10px;
 	height:33px;
 	line-height:33px;
@@ -195,7 +195,7 @@ h2{
 	/* background-color:#938172; */
 	/*background-color:#cc9e61;*/
 	/* background-color:#5e5e5e;*/
-	background-color:#e33d44;
+	background-color:#949494;
 	color:#ffffff;
 }
 .text_desc{
