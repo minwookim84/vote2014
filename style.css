@@ -181,39 +181,11 @@ ul.text_list{
 	height:60px;
 	/* background-color:#ffffff; */
 	border:3px solid #5e5e5e;
-	background-repeat: no-repeat;
-	background-size: 90%;
-	background-position: center;
 }
 
-#seoul{
-	background-image: url('../vote2014/images/customers/seoul.png');
+.visual_list li img{
+	width:95%;
 }
-#busan{
-	background-image: url('../vote2014/images/customers/busan.png');
-}
-#sejong{
-	background-image: url('../vote2014/images/customers/sejong.png');
-}
-#kbs{
-	background-image: url('../vote2014/images/customers/kbs.png');
-}
-#mbc{
-	background-image: url('../vote2014/images/customers/mbc.png');
-}
-#sbs{
-	background-image: url('../vote2014/images/customers/sbs.png');
-}
-#yonhap{
-	background-image: url('../vote2014/images/customers/yonhap.png');
-}
-#samsung{
-	background-image: url('../vote2014/images/customers/samsung.png');
-}
-#kb{
-	background-image: url('../vote2014/images/customers/kb.png');
-}
-
 
 
 .more_desc{
@@ -286,6 +258,7 @@ footer{
 		margin-left:30px;
 		text-align:center;
 	}
+
 }
 
 @media (max-width:768px){
