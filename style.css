@@ -466,7 +466,7 @@ footer{
 
 	.visual_list>li{
 		width:30%;
-		height:100px;
+		height:auto;
 		background-color:#ffffff;
 		float:left;
 		margin-left:12px;
