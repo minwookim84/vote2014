@@ -280,6 +280,7 @@ footer{
 
 	.visual_list>li{
 		width:150px;
+		height:75px;
 		float:left;
 		margin-bottom:5px;
 		margin-left:30px;
@@ -348,6 +349,7 @@ footer{
 
 	.visual_list>li{
 		width:180px;
+		height:90px;
 		background-color:#ffffff;
 		float:left;
 		margin-left:12px;
@@ -491,6 +493,7 @@ footer{
 
 	.visual_list>li{
 		width:30%;
+		height:90px;
 		background-color:#ffffff;
 		float:left;
 		margin-left:12px;
@@ -636,6 +639,7 @@ footer{
 
 	.visual_list>li{
 		width:30%;
+		height:90px;
 		background-color:#ffffff;
 		float:left;
 		margin-left:12px;
