@@ -26,15 +26,15 @@ a{
 .container{
 	width:100%;
 	background-color:#f7f6f8;
-	border-top:2px solid #FFFFFF;
-	border-bottom:2px solid #cccccc;
+	border-top:1px solid #FFFFFF;
+	border-bottom:1px solid #cccccc;
 }
 
 header{
 	position:relative;
 	height:60px;
 	min-width:600px;
-	border-bottom:2px solid #cccccc;
+	border-bottom:1px solid #cccccc;
 	background-color:rgba(0,0,0,0.01);
 	padding:5px 40px 10px 72px;
 }
@@ -61,13 +61,17 @@ header{
 }
 
 .nav_button{
-	background-color:#e33d44;
+	background-color:#494949;
 	color:ffffff;
-	border:2px solid #949494;
 	border-radius:10px;
 	height:33px;
 	line-height:33px;
 	margin-top:13px;
+	padding: 5px 20px;
+}
+
+.nav_button:hover {
+background-color: #e33d44;
 }
 
 #livereContainer{
@@ -164,12 +168,16 @@ ul.text_list{
 	padding:10px 0;
 	text-align:center;
 }
-	.text_desc{border-radius:10px;}
+	.text_desc{
+		border-radius: 0 0 10px 10px;
+		font-style: italic;
+	}
 	.text_list>li>img{
 		width:98%;
 		height:250px;
-		border:2px solid #cccccc;
 		overflow:hidden;
+		background: #ffffff;
+		border-radius: 10px 10px 0 0;
 	}
 
 

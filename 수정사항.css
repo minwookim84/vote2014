@@ -1,0 +1,54 @@
+[26번째줄]
+.container {
+width: 100%;
+background-color: #f7f6f8;
+border-top: 1px solid #FFFFFF;
+border-bottom: 1px solid #cccccc;
+}
+
+
+[33번째줄]
+header {
+position: relative;
+height: 60px;
+min-width: 600px;
+border-bottom: 1px solid #cccccc;
+background-color: rgba(0,0,0,0.01);
+padding: 5px 40px 10px 72px;
+}
+
+
+[63번째줄]
+.nav_button {
+background-color: #494949;
+color: ffffff;
+/* border: 2px solid #949494; */
+border-radius: 10px;
+height: 33px;
+line-height: 33px;
+margin-top: 13px;
+padding: 5px 20px;
+}
+
+[추가해야 할 버튼 스타일 in PC]
+.nav_button:hover {
+background-color: #e33d44;
+}
+
+
+[167번째 줄]
+.text_desc {
+border-radius: 0 0 10px 10px;
+font-style: italic;
+}
+
+
+[168번째 줄]
+.text_list>li>img {
+width: 98%;
+height: 250px;
+/* border: 2px solid #cccccc; */
+overflow: hidden;
+background: #ffffff;
+border-radius: 10px 10px 0 0;
+}
