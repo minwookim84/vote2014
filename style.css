@@ -199,7 +199,7 @@ ul.text_list{
 	width:110px;
 	height:60px;
 	background-color:#ffffff;
-	border:3px solid #5e5e5e;
+	/* border:3px solid #5e5e5e; */
 }
 
 .visual_list li img{
