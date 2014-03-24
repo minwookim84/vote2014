@@ -1,4 +1,3 @@
-
 body{
 	font-family:"Nanum Gothic",sans-serif;
 	width:100%;
@@ -25,7 +24,7 @@ a{
 }
 .container{
 	width:100%;
-	background-color:#f7f6f8;
+	background-color:/*#f7f6f8*/#ffffff;
 	border-top:1px solid #FFFFFF;
 	border-bottom:1px solid #cccccc;
 }
@@ -34,8 +33,8 @@ header{
 	position:relative;
 	height:60px;
 	min-width:600px;
-	border-bottom:1px solid #cccccc;
-	background-color:rgba(0,0,0,0.01);
+	border-bottom:/*1px solid #cccccc*/none;
+	background-color:/*rgba(0,0,0,0.01)*/#494949;
 	padding:5px 40px 10px 72px;
 }
 
@@ -49,7 +48,7 @@ header{
 }
 
 .nav{
-	width:100px;
+	width:/*100px*/auto;
 	height:33px;
 	font-size:1em;
 	margin-right:12px;
@@ -61,7 +60,7 @@ header{
 }
 
 .nav_button{
-	background-color:#494949;
+	background-color:/*#494949*/#000000;
 	color:ffffff;
 	border-radius:10px;
 	height:33px;
@@ -72,6 +71,7 @@ header{
 
 .nav_button:hover {
 background-color: #e33d44;
+cursor: pointer;
 }
 
 #livereContainer{
@@ -100,10 +100,10 @@ background-color: #e33d44;
 	text-align:center;
 	letter-spacing:-1px;
 	/* text-shadow:0 0 4px rgba(0,0,0,0.8); */
-	color:#000000;
+	color:/*#000000*/#ffffff;
 	font-weight:bold;
-	line-height:40px;
-	padding:30px 0;
+	line-height:/*40px*/55px;
+	padding:/*30px 0*/45px 0 30px;
 }
 
 .headline1{
@@ -115,14 +115,15 @@ background-color: #e33d44;
 }
 
 .headline3{
-	font-size:24px;	
+	font-size:/*24px*/15px;
+	font-weight: lighter; /*added style*/
 }
 
 section{
 	width:1100px;
 	overflow:hidden;
 	margin:0 auto;
-	padding:20px 10px 20px 10px;
+	padding:/*20px 10px 20px 10px*/70px 10px 70px 10px;
 	/* border:2px solid #666666; */
 }
 	.bgcolor_white{
@@ -168,7 +169,7 @@ ul.text_list{
 	margin:20px 0 50px 0;
 	width:100%;
 }
-	.visual_list{list-style-type:none;}
+	.visual_list{list-style-type:none;min-height:80px;}
 
 
 .text_list>li{
@@ -194,7 +195,7 @@ ul.text_list{
 
 .visual_list>li{
 	float:left;
-	margin:5px 10px;
+	margin:/*5px 10px*/20px 82px;
 	text-align:center;
 	width:110px;
 	height:60px;
@@ -205,24 +206,50 @@ ul.text_list{
 .visual_list li img{
 	width:95%;
 	margin:auto;
+	margin-bottom:1em;
 }
 
 
 .more_desc{
 	clear:both;
 	width:70%;
-	margin:5px 15% 5px 15%;
-	letter-spacing:-0.5px;
+	margin:16px 15% 5px 15%;
+	/*letter-spacing:-0.5px;*/
 	text-align:justify;
 }
 
+.nav_button.big {
+background-color: #494949;
+float: none;
+margin: 0 auto;
+font-size: 1.8em;
+width: 25%;
+padding: 30px;
+font-weight: bold;
+}
+
+.nav_button.big:hover {
+background-color: #e33d44;
+}
+
 footer{
+<<<<<<< HEAD
 	background-color:#5e5e5e;
 	min-height:50px;
 	text-align:center;
 	line-height:50px;
 	font-size:0.9em;
 	color:#FFFFFF;
+=======
+	background-color:/*#5e5e5e*/#494949;
+	/*min-height:100px;*/
+	height: 70px; /*added style*/
+	line-height:/*100px*/70px;
+	color:#FFFFFF;
+	font-size:14px;
+	text-align:center;
+	margin-top: 100px; /*added style*/
+>>>>>>> FETCH_HEAD
 }
 
 
@@ -238,7 +265,7 @@ footer{
 	margin-bottom:10px;
 	}	
 
-	.subtitle{text-align:justify;}
+	.subtitle{/*text-align:justify;*/}
 
 	.headline{
 		width:640px;
@@ -246,9 +273,25 @@ footer{
 		text-align:center;
 		font-size:25px;
 		font-weight:bold;
-		line-height:30px;
+		/*line-height:30px;*/
 		margin-bottom:15px;
 	}
+	/*.headline1{
+	font-size:25px;	
+	}
+
+	.headline2{
+		font-size:25px;	
+	}*/
+	.headline1, .headline2 {
+	font-size: 1.5em;
+	}
+
+	.headline3{
+		/*font-size:15px*/;	
+	}
+
+
 	ul.text_list, .desc_image{float:none;width:80%;margin:auto;}
 
 	.text_desc{
@@ -264,14 +307,16 @@ footer{
 		margin:5px 15%;
 		padding:10px 0;
 		text-align:center;
+		font-size: 1.1em; /*added style*/
 	}
 	.text_desc{border-radius:10px;height:82px;line-height:82px;}
 	.text_list>li>img{
 		float:left;
-		border:2px solid #cccccc;
+		border:/*2px solid #cccccc*/3px solid #494949;
 		width:80px;
-		height:80px;
+		height:/*80px*/76px;
 		overflow:hidden;
+		border-radius: 10px 0 0 10px;
 	}
 
 	.visual_list>li{
@@ -283,7 +328,10 @@ footer{
 		margin-right:2px;
 		text-align:center;
 	}
-
+	.nav_button.big {
+	width: 40%;
+	}
+	
 }
 
 @media (max-width:768px){
@@ -305,9 +353,22 @@ footer{
 		text-align:center;
 		font-size:20px;
 		font-weight:bold;
-		line-height:25px;
+		line-height:/*25px*/40px;
 		margin-bottom:15px;
 	}
+
+	/*.headline1{
+	font-size:20px;	
+	}
+
+	.headline2{
+		font-size:20px;	
+	}
+
+	.headline3{
+		font-size:12px;	
+	}*/
+
 
 	h2{
 	font-size:1.6em;
@@ -320,7 +381,7 @@ footer{
 	width:80%;
 	margin-left:10%;
 	margin-bottom:5px;
-	text-align:justify;
+	/*text-align:justify;*/
 	}	
 	.text_desc{
 	height:25px;
@@ -330,11 +391,11 @@ footer{
 
 	.text_list>li>.text_desc{
 	clear:right;
-	width:70%;
+	width:85%;
 	height:30px;
 	line-height:30px;
 	float:none;
-	border-radius:2px;
+	border-radius:/*2px;*/0 10px 10px 0;
 	margin:0 15%;
 	padding:11px 0;
 	text-align:center;
@@ -343,6 +404,7 @@ footer{
 			width:48px;
 			height:48px;
 			float:left;
+			border: 2px solid #494949; /*added style*/
 		}
 
 	.visual_list>li{
@@ -356,13 +418,18 @@ footer{
 		text-align:center;
 	}
 	ul.text_list, .desc_image{float:none;width:80%;margin:auto;}
-
+	
+	.nav_button.big {
+	width: 50%;
+	font-size: 1.5em;
+	padding: 20px;
+	}
 
 }
 
 	
 
-/* iphone3,4,5 미디어쿼리---------------------- */
+/* iphone3,4,5 미디?�쿼�?---------------------- */
 
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 640px) {
@@ -371,8 +438,8 @@ footer{
 	/* position:relative; */
 	height:150px;
 	/* min-width:100%; */
-	border-bottom:2px solid #cccccc;
-	background-color:rgba(0,0,0,0.01);
+	/*border-bottom:2px solid #cccccc;*/
+	/*background-color:rgba(0,0,0,0.01);*/
 	/* padding:5px 40px 10px 72px; */
 	}
 
@@ -386,8 +453,8 @@ footer{
 	}
 
 .nav{
-	width:250px;
-	height:120px;
+	width:225px;
+	height:108px;
 	font-size:35px;
 	font-weight:bold;
 	margin-right:12px;
@@ -398,8 +465,12 @@ footer{
 	color:#666666;
 	}
 
+.nav img{
+	vertical-align:middle;
+}
+
 .nav_button{
-	/*background-color:#960010;*/
+	/*background-color:#960010*/
 	border:4px solid #a8c795;
 	border-radius:10px;
 	height:120px;
@@ -427,11 +498,22 @@ footer{
 		width:100%;
 		margin:auto;
 		text-align:center;
-		font-size:55px;
 		font-weight:bold;
 		line-height:65px;
 		margin-bottom:15px;
 	}
+	.headline1{
+		font-size:50px;
+	}
+
+	.headline2{
+		font-size:50px;	
+	}
+
+	.headline3{
+		font-size:30px;	
+	}
+
 
 	#livereContainer{
 	width:90%;
@@ -453,7 +535,7 @@ footer{
 	margin-left:2%;
 	margin-bottom:5px;
 	font-size:40px;
-	text-align:justify;
+	/*text-align:justify;*/
 	}	
 	.text_desc{
 	font-size:40px;
@@ -510,18 +592,24 @@ footer{
 	font-size:32px;
 	text-align:justify;
 	}
+	
+	.nav_button.big {
+	width: 50%;
+	font-size: 1.5em;
+	padding: 20px;
+	}
 
 }
 
-/* 갤스3 이상을 위한 미디어 쿼리 ----------------*/
+/* 갤스3 ?�상?? ?�한 미디?? 쿼리 ----------------*/
 
 @media only screen and (min-device-width : 640px) and (max-device-width : 960px) {
 		header{
 	/* position:relative; */
 	height:150px;
 	/* min-width:100%; */
-	border-bottom:2px solid #cccccc;
-	background-color:rgba(0,0,0,0.01);
+	/*border-bottom:2px solid #cccccc;*/
+	/*background-color:rgba(0,0,0,0.01);*/
 	/* padding:5px 40px 10px 72px; */
 	}
 
@@ -600,7 +688,7 @@ footer{
 	margin-left:2%;
 	margin-bottom:5px;
 	font-size:35px;
-	text-align:justify;
+	/*text-align:justify;*/
 	}	
 	.text_desc{
 	font-size:35px;
@@ -657,5 +745,11 @@ footer{
 	font-size:25px;
 	text-align:justify;
 }
+
+.nav_button.big {
+	width: 50%;
+	font-size: 1.5em;
+	padding: 20px;
+	}
 
 }
