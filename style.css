@@ -218,7 +218,11 @@ ul.text_list{
 
 footer{
 	background-color:#5e5e5e;
-	min-height:150px;
+	min-height:50px;
+	text-align:center;
+	line-height:50px;
+	font-size:0.9em;
+	color:#FFFFFF;
 }
 
 
