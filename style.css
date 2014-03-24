@@ -426,6 +426,10 @@ footer{
 	color:#666666;
 	}
 
+.nav img{
+	disdplay:none;
+}
+
 .nav_button{
 	/*background-color:#960010;*/
 	border:4px solid #a8c795;
