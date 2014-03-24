@@ -168,7 +168,7 @@ ul.text_list{
 	margin:20px 0 50px 0;
 	width:100%;
 }
-	.visual_list{list-style-type:none;}
+	.visual_list{list-style-type:none;min-height:80px;}
 
 
 .text_list>li{
@@ -205,20 +205,25 @@ ul.text_list{
 .visual_list li img{
 	width:95%;
 	margin:auto;
+	margin-bottom:1em;
 }
 
 
 .more_desc{
 	clear:both;
 	width:70%;
-	margin:5px 15% 5px 15%;
+	margin:16px 15% 5px 15%;
 	letter-spacing:-0.5px;
 	text-align:justify;
 }
 
 footer{
 	background-color:#5e5e5e;
-	min-height:150px;
+	min-height:100px;
+	line-height:100px;
+	color:#FFFFFF;
+	font-size:14px;
+	text-align:center;
 }
 
 
