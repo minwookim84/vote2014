@@ -427,7 +427,7 @@ footer{
 	}
 
 .nav img{
-	/* display:none; */
+	vertical-align:middle;
 }
 
 .nav_button{
