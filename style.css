@@ -250,6 +250,20 @@ footer{
 		line-height:30px;
 		margin-bottom:15px;
 	}
+	.headline1{
+	font-size:25px;	
+	}
+
+	.headline2{
+		font-size:25px;	
+	}
+
+	.headline3{
+		font-size:15px;	
+	}
+
+
+
 	ul.text_list, .desc_image{float:none;width:80%;margin:auto;}
 
 	.text_desc{
@@ -309,6 +323,19 @@ footer{
 		line-height:25px;
 		margin-bottom:15px;
 	}
+
+	.headline1{
+	font-size:20px;	
+	}
+
+	.headline2{
+		font-size:20px;	
+	}
+
+	.headline3{
+		font-size:12px;	
+	}
+
 
 	h2{
 	font-size:1.6em;
@@ -433,6 +460,18 @@ footer{
 		line-height:65px;
 		margin-bottom:15px;
 	}
+	.headline1{
+	font-size:55px;	
+	}
+
+	.headline2{
+		font-size:55px;	
+	}
+
+	.headline3{
+		font-size:33px;	
+	}
+
 
 	#livereContainer{
 	width:90%;
